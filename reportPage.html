@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REPORT PROBLEM</title>
+	<style type="text/css">
+		div{
+			width: 40%;
+			height:50%;
+            margin-top: 90px;
+            border-style: double;
+            margin-left: 420px;
+            
+            background-color: #00C3FF;
+            padding-top: 30px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+		}
+		body{
+			background: url("site.png") no-repeat;
+			background-size: 100% 770px;
+
+			
+		}
+		#head{
+			margin-left: 30px;
+			padding-left: 10px;
+			padding-top: 25px;
+			font-size: 30px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-style: italic;
+
+		}
+
+
+	</style>
+
+
+</head>
+<body>
+ <p id="head"> APARTMENT MANAGEMENT SYSTEM  </p>
+	<div>
+		<form method="GET">
+			<label for="fname">NAME :</label>
+	  <input type="text" name="name" > <br><br>
+	  <label for="fname">FLAT NUMBER:</label>
+	  <input type="number" step="1" max="4" min="1" name="num"><br><br>
+	  	<label for="fname">BLOCK NAME   :</label>
+
+	 <select name="Block" id="block">
+		<option value="block1"> BLOCK 1</option>
+		<option value="block2"> BLOCK 2</option> 
+		<option value="block2"> BLOCK 3</option> 
+		<option value="block2"> BLOCK 4</option> 
+	    </select>
+		<br><br>
+			<label for="fname">COMPLAINT:</label>
+	 <textarea rows="5" cols="30" required="">
+		
+	</textarea> <br><br>
+	<label for="fname">REPORTING DATE :</label>
+	<input type="date" name="day"> <br><br>
+    <input type="submit" name="buton" value="SUBMIT">
+	</div>
+
+
+</body>
+</html>
